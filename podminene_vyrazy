@@ -1,0 +1,51 @@
+let    
+    zeme = "Czechia", //promenna typu text
+    rok = 2018, //promenna typu cislo
+    #"kod meny" = "CZK", // promenna typu text
+
+    /* zpusoby prace  podminenymi vyrazy, protoze kazda promenna musi mit unikatni nazev,
+    jsou jednotlive zpusoby pojmenovany jinak - odliseny cislici na konci nazvu promenne
+    */
+
+    // jednoduchy podmineny vyraz s navratovou hodnotou pri splneni podminky a nesplneni podminky
+    #"zeme a rok 1" = 
+        if Value.Is(rok,type text) then zeme&"-"&rok // pokud je promenna rok datovy typ text, proved operaci
+        else "promenna neni datovy typ text", // jinak proved alternativni operaci - vypis hodnotu
+
+    #"zeme a rok 2" = 
+        // pokud je promenna rok datovy typ text, proved operaci
+        if Value.Is(rok,type text) then zeme&"-"&rok 
+        // jinak proved alternativni operaci - preved hodnotu na text a ten spoj s promennou zeme
+        else zeme&"-"&Text.From(rok), 
+
+    #"zeme a rok 3" = 
+        // pokud je promenna rok text, proved operaci
+        if Value.Is(rok,type text) then zeme&"-"&rok
+        /* pokud promenna rok neni text, otestuj dalsi podminku,
+        pri jejim splneni proved operaci
+        */
+        else if Value.Is(rok,type number) then zeme&"-"&Text.From(rok)
+        //pokud neni splnena ani dalsi podminka, proved alternativni operaci
+        else "promenna neni datovy typ text ani cislo",
+
+    #"zeme a rok 4" = 
+        // pokud je promenna rok text, proved operaci
+        if Value.Is(rok,type text) then zeme&"-"&rok
+        //pokud promenna neni text
+        else 
+            //zkus prevest hodnotu promenne rok na text a pak spojit s promennou zeme
+            try zeme&"-"&Text.From(rok)
+            //pokud bude vystupem chyba, proved alternativni operaci
+            otherwise "promenna neni datovy typ text a nelze ji prevest na text",
+    
+
+   #"zeme a rok 5" = 
+        //pokud je hodnota promenne zeme text a zaroven, hodnota promenne rok je text, proved operaci
+        if Value.Is(zeme,type text) and Value.Is(rok,type text) then zeme&"-"&rok
+        //pokud neni hodnota promenne zeme text a zaroven hodnota promenne rok neni cislo, proved operaci
+        else if not Value.Is(zeme,type text) or not Value.Is(rok,type number)
+            then "zadna promenna nema spravny datovy typ"
+        //pokud neni splnena ani jedna z vyse uvedenych podminek, proved alternativni operaci
+        else "minimalne jedna promenna nema spravny datovy typ"
+                     
+in #"zeme a rok 5"
