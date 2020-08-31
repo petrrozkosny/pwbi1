@@ -33,12 +33,12 @@ let
         if Value.Is(rok,type text) then zeme&"-"&rok
         //pokud promenna neni text
         else 
-            //zkus prevest hodnotu promenne rok na text a pak spojit s promennou zeme
+            //zkus prevest honotu promenne rok na text a pak spojit s promennou zeme
             try zeme&"-"&Text.From(rok)
             //pokud bude vystupem chyba, proved alternativni operaci
             otherwise "promenna neni datovy typ text a nelze ji prevest na text",
     
-
+  #TODO UPRAVIT NAVRATOVE HODNOTY
    #"zeme a rok 5" = 
         //pokud je hodnota promenne zeme text a zaroven, hodnota promenne rok je text, proved operaci
         if Value.Is(zeme,type text) and Value.Is(rok,type text) then zeme&"-"&rok
