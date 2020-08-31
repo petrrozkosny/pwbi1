@@ -13,5 +13,5 @@
 
 2. cast skoleni:
 CSV soubory s historickymi udaji o demografickych udajich obyvatel EU.
-https://github.com/petrrozkosny/power_query/blob/master/skoleni-data.zip
+https://github.com/petrrozkosny/power_query/blob/master/skoleni-data.zip 
 
