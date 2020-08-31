@@ -11,10 +11,8 @@
  
  1.4 Tabulky pro append a join:
   
-  1.4.1 Prumerne veky (join): https://raw.githubusercontent.com/petrrozkosny/power_query/master/prumerne_veky
-  
-  1.4.2 Historicka data (append): https://raw.githubusercontent.com/petrrozkosny/power_query/master/zakladni%20ukazatele-historicke
-
+			1.4.1 Prumerne veky (join): https://raw.githubusercontent.com/petrrozkosny/power_query/master/prumerne_veky
+			1.4.2 Historicka data (append): https://raw.githubusercontent.com/petrrozkosny/power_query/master/zakladni%20ukazatele-historicke
 
 
 2. cast skoleni:
