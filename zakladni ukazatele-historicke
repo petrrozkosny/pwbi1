@@ -13,16 +13,16 @@ let // klicove slovo uvozujici zacatek prikazu
             "CZK" = text
             true = boolean
             */
-            {"Czechia",2015,10538000,"CZK",true}, //hodnoty na 1. radku
-            {"Czechia",2016,10553000,"CZK",true}, // hodnoty na 2. radku
+            {"Cesko",2015,10538000,"CZK",true}, //hodnoty na 1. radku
+            {"Cesko",2016,10553000,"CZK",true}, // hodnoty na 2. radku
     
 
-            {"Slovakia",2015,5421000,"EUR",true},
-            {"Slovakia",2016,5426000,"EUR",true},
+            {"Slovensko",2015,5421000,"EUR",true},
+            {"Slovensko",2016,5426000,"EUR",true},
 
 
-            {"Poland",2015,38005000,"PLN",true},
-            {"Poland",2016,37967000,"PLN",true}
+            {"Polsko",2015,38005000,"PLN",true},
+            {"Polsko",2016,37967000,"PLN",true}
 
         }
     )
