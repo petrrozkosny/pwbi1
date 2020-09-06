@@ -28,21 +28,21 @@ let // klicove slovo uvozujici zacatek prikazu
             "CZK" = text
             true = boolean
             */
-            {"Czechia",2017,10578000,"CZK",true}, //hodnoty na 1. radku
-            {"Czechia",2018,10610000,"CZK",true}, // hodnoty na 2. radku
-            {"Czechia",2019,10649000,"CZK",true}, // hodnoty na 3. radku
+            {"Cesko",2017,10578000,"CZK",true}, //hodnoty na 1. radku
+            {"Cesko",2018,10610000,"CZK",true}, // hodnoty na 2. radku
+            {"Cesko",2019,10649000,"CZK",true}, // hodnoty na 3. radku
 
-            {"Slovakia",2017,5435000,"EUR",true},
-            {"Slovakia",2018,5443120,"EUR",true},
-            {"Slovakia",2019,5450000,"EUR",true},
+            {"Slovensko",2017,5435000,"EUR",true},
+            {"Slovensko",2018,5443120,"EUR",true},
+            {"Slovensko",2019,5450000,"EUR",true},
 
-            {"Poland",2017,37972000,"PLN",true},
-            {"Poland",2018,37976000,"PLN",true},
-            {"Poland",2019,37972000,"PLN",true},
+            {"Polsko",2017,37972000,"PLN",true},
+            {"Polsko",2018,37976000,"PLN",true},
+            {"Polsko",2019,37972000,"PLN",true},
 
-            {"Switzerland",2017,8149000,"CHF",false},
-            {"Switzerland",2018,8480000,"CHF",false},
-            {"Switzerland",2019,8544000,"CHF",false}
+            {"Svycarsko",2017,8149000,"CHF",false},
+            {"Svycarsko",2018,8480000,"CHF",false},
+            {"Svycarsko",2019,8544000,"CHF",false}
         }
     )
 in //klicove slovo pro navratovou hodnotu, krok pred klicovym slovem nesmi byt zakoncen carkou
