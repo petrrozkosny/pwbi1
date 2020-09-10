@@ -1,0 +1,21 @@
+let
+    
+    uprava_dat = (tabulka as table) =>
+    
+    let 
+
+ 
+    _tabulka_odstranit_sloupce = Table.RemoveColumns(tabulka,{"","UNIT","Flag and Footnotes"}),
+    _tabulka_odstranit_vek = Table.SelectRows(_tabulka_odstranit_sloupce, each ([AGE] <>  "Open-ended age class" and [AGE] <> "Total" and [AGE] <> "Unknown")),
+    _tabulka_upravit_vek = Table.ReplaceValue(_tabulka_odstranit_vek,"years","",Replacer.ReplaceText,{"AGE"}),
+    _tabulka_upravit_vek2 = Table.ReplaceValue(_tabulka_upravit_vek,"year","",Replacer.ReplaceText,{"AGE"}),
+    _tabulka_upravit_vek3 = Table.ReplaceValue(_tabulka_upravit_vek2,"Less than","",Replacer.ReplaceText,{"AGE"}),
+    _tabulka_upravït_pocet_obyvatel = Table.ReplaceValue(_tabulka_upravit_vek3,":","",Replacer.ReplaceText,{"Value"}),
+    _tabulka_zmenit_datove_typy = Table.TransformColumnTypes(_tabulka_upravït_pocet_obyvatel,{{"TIME", Int64.Type}, {"GEO", type text}, {"SEX", type text}, {"AGE", Int64.Type}, {"Value", Int64.Type}})
+    
+    
+    
+    
+    in  _tabulka_zmenit_datove_typy
+in
+    uprava_dat
