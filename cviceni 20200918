@@ -16,7 +16,6 @@ Stranka bude mit nazev "Podrobnosti-rok"
 
 5.1 Tabulka: zeme, pocet obyvatel
 5.2 Karta: Pocet obyvatel (maximum)
-5.2.1 Popis karty nastavit na: Maximalni pocet obyvatel ve vybranem roce
 5.3. Kolacovy graf: zeme, pocet obyvatel
 
 Stranka Podrobnosti rok bude filtrovana pres sloupec [Rok]
