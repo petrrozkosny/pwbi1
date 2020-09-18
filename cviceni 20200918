@@ -1,0 +1,45 @@
+Nad tabulkou 'zakladni ukazatele-vse'
+
+1. Tabulka
+sloupce: rok, zeme, pocet obyvatel
+
+2. Tabulka
+sloupce: rok, pocet obyvatel (suma)
+
+3. spojnicovy graf: vyvoj poctu obyvatel v letech
+
+4. kalkulovany sloupec [Pocet obyvatel v mil.] = vytvorit novy sloupec, ktery bude udavat pocet obyvatel v milionech,tj
+potrebujeme vydelit hodnoty ze sloupce [Pocet obyvatel] / 1 000 000
+
+5. Stranka podrobnosti:
+Stranka bude mit nazev "Podrobnosti-rok"
+
+5.1 Tabulka: zeme, pocet obyvatel
+5.2 Karta: Pocet obyvatel (maximum)
+5.2.1 Popis karty nastavit na: Maximalni pocet obyvatel ve vybranem roce
+5.3. Kolacovy graf: zeme, pocet obyvatel
+
+Stranka Podrobnosti rok bude filtrovana pres sloupec [Rok]
+
+6. Stranka popis (pojmenovat "Popis-rok")
+6.1 Tabulka se sloupci: zeme, pocet obyvatel
+6.2 Popis aktivovat nad grafem z casti 3
+
+7. Akcni tlacitko, ktere uzivatele prevede na stranku Podrobnosti-rok
+7.1 Pokud je tlacitko zakazano, tak text "Vyberte jedinou zemi z tabulky"
+7.2. Pokud je tlacitko aktivni (vychozi stav), tak text "Prejit na detail roku"
+
+8. Kalkulovane miry (na nove strance "Vizualizace mer") - vsechny vizualizace pres vizual "Karta"
+8.1 Prumer [Pocet obyvatel] 
+8.2 Prumer [Pocet obyvatel] za [Zeme] = "Cesko"
+8.3. Suma [Pocet obyvatel] za rok 2018
+8.4. Podil [Zeme]="Cesko" na [Zeme] (tj. jaky podil na celkove populaci ma Cesko)
+
+BONUSY (Power Query)
+1 duplikovat tabulku 'zakladni ukazatele-vse'
+1.1. Novy sloupec z prikladu - datum, kdy k roku ze sloupce [Rok] pridame den 01 a mesic 01 (tj. vsechna data jsou k 1.1)
+1.2. Lowercase hodnot ve sloupci Zeme (nad puvodnim sloupcem, nepridavame novy)
+1.3. Podmineny sloupec: Jmeno [Clen eurozony] - pokud je [Kod meny]= "EUR", tak navratova hodnota "ano", jinak navratova hodnota "ne"
+
+2. Duplikvat tabulku 'zakladni ukazatele vse' a duplikat pojmenovat 'prehled zemi'
+2.1. Ponechat pouze sloupec [Zeme] a v nem odstranit duplicitni hodnoty 
