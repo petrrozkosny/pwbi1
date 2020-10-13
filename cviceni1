@@ -15,7 +15,6 @@ Kalkulovane miry (dosadit do karet)
 - Maximum z [Pocet obyvatel] za [Zeme] = Polsko
 - Maximum z [Pocet obyvatel] za [Zeme] = Polsko, [Rok] = 2019
 - Absolutni rozdil mezi [Zeme] = Polsko, [Rok] = 2019 a [Zeme] = Polsko, [Rok] = 2018
-- Procentualni rozdil mezi [Zeme] = Polsko, [Rok] = 2019 a [Zeme] = Polsko, [Rok] = 2018
 
 Stránka "popis"
 
@@ -45,14 +44,12 @@ Stranka "Cesko"
 
 V casti "Filtry na této stránce" dosadit [Zeme] = Cesko
 
-
-
 Tabulka =
-sloupec 1 = [Zeme]
-sloupec 2 = Suma obyvatel v danem [Rok]
-sloupec 3 = Suma obyvatel za predchozi [Rok]
-sloupec 4 = Absolutni rozdil mezi sloupcem 2 a 3
-sloupec 5 = Rozdil [Pocet obyvatel] mezi aktualnim rokem a rokem maximalni hodnoty [Pocet obyvatel]
+
+sloupec 1 = Suma obyvatel v danem [Rok]
+sloupec 2 = Suma obyvatel za predchozi [Rok]
+sloupec 3 = Absolutni rozdil mezi sloupcem 2 a 3
+sloupec 4 = Rozdil [Pocet obyvatel] mezi aktualnim rokem a rokem maximalni hodnoty [Pocet obyvatel]
 
 Podminene formatovani = Pokud se na radku nachazi hodnota, ktera odpovida maximu z [Pocet obyvatel], 
 	tak tuto hodnotu podbarvit barvou "##ffd700"
