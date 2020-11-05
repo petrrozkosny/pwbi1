@@ -1,0 +1,40 @@
+Power Pivot
+
+stranka "report"
+
+Spojnicovy graf:
+- vývoj průměrného věku v ČR (definovat filtrem nad vizuálem, tj. nic nepočítám)
+
+Tabulka se sloupci
+- Země
+- Počet obyvatel v roce 2019 (kalkulovana mira)
+- Průměrný věk v roce 2019 (kalkulovana mira)
+
+Karty:
+- rozdíl v sumě obyvatel mezi maximálním rokem a minimálním rokem tabulky 'zakladni ukazatele'
+
+Sloupcový graf:
+- rozdíl v populaci za daný rok vs. předchozí rok (tj. chceme vidět absolutní přírůstky či poklesy obyvatel)
+
+Nad sloupcovým grafem bude popis a v něm tabulka, která zobrazí rozdíl v populaci pro dané země.
+
+Podrobná analýza filtrovaná přes sloupec "Země"
+	Tabulka se sloupci
+	Rok
+	Počet obyvatel
+	Podíl obyvatel v daném roce a dané zemi na počtu obyvatel všech zemí v daném roce
+	Průměrný věk
+	Rozdíl průměrného věku v daném roce od maximálního průměrného věku dané země za všechny roky
+
+
+BONUS:
+
+Tabulka se sloupci:
+-Rok
+- Rozdíl sumy populace v daném roce od maximální populace za všechny roky
+- Podméněné formátování nad sloupcem Rozdíl sumy populace - hodnotu maximálního rozdílu dát podmíněné formátování
+ barva písma "#ff0000", jinak "#000000"
+
+
+
+
