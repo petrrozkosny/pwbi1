@@ -1,0 +1,40 @@
+Power Query
+
+- vytvořit dotazy:
+	Pozn. kopie dotazu zakladni ukazatele
+	- index Zeme: Unikátní hodnoty ze sloupce Zeme
+	- index Rok: Unikátní hodnoty ze sloupce Rok
+
+Power Pivot
+- vytvořit aktivní obousměrnou relaci mezi index země a zakladní ukazatele
+- vytvořit neaktivní relaci mezi index rok a zakladní ukazatele
+- vytvořit hiearchie "hiearchie lokalit": členská země EU -> Země
+
+Kalkulované míry (pouze z dotazu zakladni ukazatele)
+Pozn. vše dosadit do karet
+
+- Průměr obyvatel za rok 2019
+- Počet (suma) obyvatel za Slovensko v roce 2019
+- Podíl obyvatel za Slovensko v roce 2019 na celkové populaci Slovenska (tj. za všechny roky)
+- Pokud si uživatel zvolil jedinou hodnotu ze slupce Země,tak vypsat sumu obyvatel dané země, jinak vypsat chybovou hlášku
+	"Vyberte jedinou zemi"
+- Pokud si uživatel zafiltroval sloupec Země, tak vypsat text "Je filtrována země", jinak vypsat text "Není filtrována země"
+
+Vizualizace:
+- Průřez nad index Země
+
+- Sloupcový graf: vývoj počtu obyvatel v jednotlivých letech
+- Karta: podíl počtu obyvatel země, kterou uživatel vybral v průřezu na celkové populaci (tj. vytvořit na to kalkulovanou míru)
+
+Tabulka1
+- Rok
+- Počet obyvatel
+
+Pozn. tabulce nastavit podmíněné formátování dle libosti :-)
+
+
+Kalkulovaná míra, která kontroluje, jestli je aktuální maximální hodnota ve sloupci Počet obyvatel (tj. je použit filtr nad sloupcem Rok)
+maximální hodnotou za celé období (tj. potřbujete zrušit filtry). Pokud ano, nechte vypsat "ok", jinak "ko"
+
+Kalkulovaná míra - pokud je výsledkem Kalkulované míry výše "ko", tak vracíme text "#556b2f", jinak "#ff00ff"
+	Touto kalkulovanou mírou podmíněně formátujte hodnoty v Tabulka1
