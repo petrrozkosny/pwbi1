@@ -1,0 +1,42 @@
+Cvičení1
+
+Vytvořte stránku "report1"a v ní počítejte/vizualizujte
+
+	- Parametr "_filtr roku" s hodnotami 2015 - 2020, posouváme po 1, typ "celé číslo", tento parametr nechejte zobrazit na stránce
+Kalkulované míry:
+	1. _suma obyvatel max rok: suma [Pocet obyvatel] za maximum [Rok]
+	2. _suma obyvatel parametr: suma [Pocet obyvatel] za hodnotu z parametru _filtr roku
+	3. _suma obyvatel mezirocne: suma [Pocet obyvatel] - (mínus) suma [Pocet obyvatel] za [Rok] - 1, pokud je [Rok] minimální hodnotou, tak vracíme BLANK() místo hodnoty výpočtu
+
+Sloupcový graf dle [Rok] a hodnotami z kalkulované míry viz výše (meziroční rozdíl populace)
+
+Vytvořte kalkulované míry, které počítají
+	1. _prumer obyvatel po 2017 =  průměr [Pocet obyvatel] za [Rok] >=2017
+	2. _maximum obyvatel polsko = maximální [Pocet obyvatel] za [Zeme] = "Polsko"
+	3. _minimum obyvatel =  minimální [Pocet obyvatel]
+	4. _ rozdil populace max a min rok = rozdíl mezi maximum [Rok] a minimum [Rok]
+	5. _populace slovensko 2019 vs 2018 = rozdíl v suma ([Pocet obyvatel] za [Zeme] = "Slovensko" a [Rok] = 2019) a ([Pocet obyvatel] za [Zeme] = "Slovensko" a [Rok] = 2018)
+
+Vytvořte stránku "report2" a v ní počítejte / vizualizujte
+	1. spojnicový graf s vývoj sumy [Pocet obyvatel] dle [Rok] za [Zeme] = "Cesko" (nastavte filtr na vizuálu)
+	2. výsečový graf se suma [Pocet obyvatel] dle [Zeme] s omezením [Clenska zeme EU] = true (nastavte filtr na vizuálu)
+
+	výsečový graf neovlivňuje spojnicový graf a spojnicový graf neovlivňuje výsečový graf
+
+Vytvořte stránku "_popis rok" a:
+	1. nastavte ji hodnotu "Popis" = zapnuto
+	2. doplňte vizuál typu tabulka se sloupci [Rok]  a suma [Pocet obyvatel]
+	3. upravte velikost stránky
+	4. na Výsečový graf viz výše nastavte zobrazování tohoto popisu
+
+BONUS:
+Vytvořte kalkulované míry, které počítají
+	1. _rozdil populace max rok = Rozdíl v suma [Pocet obyvatel] v daném roce a sum[Pocet obyvatel] v maximálním roce tabulky, viz zadání níže
+	2. _rozdil populace predchozi rok = Rozdíl v suma [Pocet obyvatel] v daném roce a suma [Pocet obyvatel] v [Rok] - 1, bude dosazeno do tabulky, viz níže
+
+Na stránce "report2" vizualizujte:
+	1. tabulka se sloupci
+		a. [Rok]
+		b. [Pocet obyvatel] (za daný rok)
+		c. _rozdil populace max rok (již spočítaná kalkulovaná míra)
+		d. rodil populace predchozi rok (již spočítaná kalkulovaná míra)
