@@ -1,0 +1,26 @@
+Vytvořte stránku "report2" a v ní počítejte / vizualizujte
+
+- Průměr [Pocet obyvatel] za [Rok] >=2017
+- Maximální [Pocet obyvatel] za [Zeme] = "Polsko"
+- Minimální [Pocet obyvatel]
+- Rozdíl mezi maximum [Rok] a minimum [Rok]
+- Rozdíl v suma ([Pocet obyvatel] za [Zeme] = "Slovensko" a [Rok] = 2019) a ([Pocet obyvatel] za [Zeme] = "Slovensko" a [Rok] = 2018)
+
+Spojnicový graf s vývoj sumy [Pocet obyvatel] dle [Rok] za [Zeme] = "Cesko" (nastavte filtr na vizuálu)
+Výsečový graf se suma [Pocet obyvatel] dle [Zeme] s omezením [Clenska zeme EU] = true (nastavte filtr na vizuálu)
+
+Výsečový graf neovlivňuje spojnicový graf a spojnicový graf neovlivňuje výsečový graf
+
+Vytvořte stránku "_popis rok" a:
+- nastavte ji hodnotu "Popis" = zapnuto
+- doplňte vizuál typu tabulka se sloupci [Rok]  a suma [Pocet obyvatel]
+- upravte velikost stránky
+- na Výsečový graf viz výše nastavte zobrazování tohoto popisu
+
+BONUS:
+Tabulka se sloupci
+
+[Rok]
+[Pocet obyvatel] (za daný rok)
+rozdíl populace max rok (kalkulovaná míra: rozdíl v suma [Pocet obyvatel] v daném roce a sum[Pocet obyvatel] v maximálním roce tabulky)
+rozdíl populace předchozí rok (kalkulovaná míra: rozdíl v suma [Pocet obyvatel] v daném roce a suma [Pocet obyvatel] v [Rok] - 1)
