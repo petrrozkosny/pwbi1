@@ -1,0 +1,19 @@
+Kalkulovaná míra:
+- Suma [Pocet obyvatel] za [Rok] = 2019
+- Suma [Pocet obyvatel] za min [Rok]
+- Suma [Pocet obyvatel] za [Rok] = 2019 a [Zeme] = "Cesko"
+
+Výše uvedené míry každou zvlášť do vizuálu typu "Karta"
+
+Spojnicový graf:
+	- vývoj sumy [Pocet obyvatel] dle [Rok]
+
+Koláčový graf:
+	- suma [Pocet obyvatel] dle [Zeme] pro [Rok] = 2019
+Tabulka
+	- [Zeme]
+	- suma [Pocet obyvatel]
+	- podíl suma [Pocet obyvatel] dane [Zeme] na suma [Pocet obyvatel]
+	  vsech [Zeme]
+
+Grafy neovlivňují karty
