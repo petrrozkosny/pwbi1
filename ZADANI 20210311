@@ -1,0 +1,27 @@
+Kalkulovaná míra:
+- suma [Pocet obyvatel] za [zeme] = Polsko a [rok] = 2018
+- rozdíl mezi 
+	suma [Pocet obyvatel] v MAX [ROK]
+	suma [Pocet obyvatel] v MIN [Rok]
+- rozdíl populace Polsko - Cesko za [Rok] = 2019
+
+Pozn. míry dosadit do karet
+
+Kalkulované sloupce
+- předchozí rok: [Rok] - 1
+- pocet obyvatel v mil: Hodnota ze sloupce [Pocet obyvatel] / 1000000
+
+Tabulka (vizuál) se sloupci
+- [Rok]
+- SUM [Pocet obyvatel]
+- podíl SUM [Pocet obyvatel] za daný rok na SUM [Pocet obyvatel] za všechny roky
+- rozdíl SUM [Pocet obyvatel] za daný rok a SUM [Pocet obyvatel] za předchozí rok
+
+Filtr: průřez nad [Zeme]
+Vizuál: karta
+	- kalkulovaná míra: rozdíl mezi sumou [Pocet obyvatel] uzivatelem zvolené [Zeme]
+	a SUM [Pocet obyvatel] = "Cesko"
+
+
+
+
