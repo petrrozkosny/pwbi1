@@ -3,8 +3,9 @@ Stránka "report"
 Tabulka =  Sloupce [Zeme] a maximum z [Pocet obyvatel]
 Sloupcovy graf = Vývoj [Pocet obyvatel] v case [Rok]
 Karta = Suma [Pocet obyvatel] za rok 2019
+Sloupcovy graf = Mezirocni vyvoj [Pocet obyvatel] dle [Rok], tj. zajima nas rozdil mezi [Pocet obyvatel] za dany rok a predchozi rok.
 Kolacovy graf = Podil [Pocet obyvatel] dle [Zeme] za [Rok] = 2019, pozn, 
-u grafu vypnout ovlivnovani vsemi ostatnimi vizualy
+u kolacoveho grafu vypnout ovlivnovani vsemi ostatnimi vizualy
 
 Kontingencni tabulka / Matice = Radky [Zeme], sloupce [Rok], hodnoty suma [Pocet obyvatel]
 
