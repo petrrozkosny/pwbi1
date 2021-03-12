@@ -1,0 +1,35 @@
+Srážky = [PRCP]
+Kalkulované míry (dosadit do karty)
+Suma srážek za rok 2019
+Maximální datum, za které máme data pro NAME Mosnov
+Suma srážek, která napršela v MOSNOV k poslednímu dni, za který máme data
+Maximální srážky napříč lokalitami za poslední datum pro Mosnov
+
+Kontingenční tabulka
+Rok
+Suma srážek v daném roce
+Suma srážek v předchozím roce
+Suma srážek v daném roce za MOSNOV
+Suma srážek v daném roce vs. suma srážek v minimálním roce, za který máme data
+
+Sloupcový graf
+Rok
+Meziroční vývoj srážek (tj. srážky v tomto roce - srážky v minulém roce)
+
+Koláčový graf (později bude dosazen popis)
+- NAME
+- Suma srážek pro rok 2019
+
+Stránka "Podrobnosti"
+- uživatel se sem dostane, pokud filtruje sloupec NAME
+
+Vizuály
+- spojnicový graf: vývoj srážek v čase
+- maximální srážky
+
+Stránka "popis"
+- tabulka: Měsíc, suma PRCP
+Popis bude zobrazen nad koláčovým grafem, viz výše
+
+
+Report uložte, vypublikujte, vytvořte veřejně dostupnou URL a tu mi pošlete do chatu / mailem na petr.rozkosny@ictpro.cz
