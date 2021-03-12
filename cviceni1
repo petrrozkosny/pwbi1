@@ -49,20 +49,12 @@ Tabulka =
 
 sloupec 1 = Suma obyvatel v danem [Rok]
 sloupec 2 = Suma obyvatel za predchozi [Rok]
-sloupec 3 = Absolutni rozdil mezi sloupcem 2 a 3
+sloupec 3 = Absolutni rozdil mezi sloupcem 1 a 2
 sloupec 4 = Rozdil [Pocet obyvatel] mezi aktualnim rokem a rokem maximalni hodnoty [Pocet obyvatel]
-
-Podminene formatovani = Pokud se na radku nachazi hodnota, ktera odpovida maximu z [Pocet obyvatel], 
-	tak tuto hodnotu podbarvit barvou "##ffd700"
-
 
 Kombinovany graf
 osa1 = Vyvoj poctu obyvatel v case
 osa2 = Prumer za cele obdobi 
 
-Spojnicovy graf = Procentualni rozdil v [Pocet obyvatel] mezi aktualnim a lonskym rokem
 
-BONUS
-
-Sloupcovy graf = vyvoj rozdilu v poctu obyvatel (lze pouzit miru 4), podbarvit "#800000", pokud je tato hodnota mensi 0, jinak podbarvit "#008000"
 
