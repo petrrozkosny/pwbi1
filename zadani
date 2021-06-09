@@ -1,0 +1,43 @@
+Vytvořte stránku "report" a v ní vizualizujte / počítejte
+
+================================== CVIČENÍ 1 ==============================================
+
+1. Tabulka se sloupci:
+1.1 [Rok]
+1.2 Kalkulovaná míra "01 pocet obyvatel": Suma [Pocet obyvatel] v daném [Rok] 
+1.3 Kalkulovaná míra "02 pocet obyvatel mezirocne": Suma [Pocet obyvatel] v daném [Rok] - Suma [Pocet obyvatel] v předchozím[Rok]
+1.4 Kalkulovaná míra "03 pocet obyvatel Cesko": Suma [Pocet obyvatel] pro daný [Rok] v [Zeme] = "Cesko"
+1.5 Kalkulovaná míra "04 pocet obyvatel Cesko vs. max. Cesko":  Suma [Pocet obyvatel] pro daný [Rok] v [Zeme] = "Cesko" - Suma [Pocet obyvatel] pro max [Rok] v [Zeme] = "Cesko"
+
+2. Výsečový graf:
+2.1. Legenda: [Zeme]
+2.2. Hodnoty: [Pocet obyvatel] (suma)
+2.3. Filtrujte graf tak, aby ukazoval hodnoty za [Rok] = 2019
+
+3. Tabulka se sloupci:
+3.1. [Zeme]
+3.2. Kalkulovaná míra: "05 pocet obyvatel max. rok": Suma [Pocet obyvatel] v dané [Zeme] za max [Rok]
+
+
+================================== CVIČENÍ 1 ==============================================
+
+
+================================== CVIČENÍ 2 ==============================================
+
+(pokračujeme v tabulce vytvořené v bodu 3)
+3.3. Kalkulovaná míra "06 rok max pocet obyvatel": Max [Rok], ve kterém bylo v dané zemi dosaženo maximální hodnoty ve sloupci [Pocet obyvatel]
+3.4. Kalkulovaná míra "07 pocet obyvatel v max. rok vs. max. pocet obyvatel": Suma [Pocet obyvatel] v dané [Zeme] v max. [Rok] - max. [Pocet obyvatel] v dané [Zeme]
+3.5. Kalkulovaná míra "08 pocet obyvatel 2017 - 2019": Suma [Pocet obzyvatel] v dané [Zeme] v období 2017>=[Rok]<=2019
+
+4. Vizuál typu Průřez nad sloupcem [Zeme]
+4.1. Vizuál neovlivňuje tabulku z bodu 1
+
+5. Sloupcový graf:
+5.1. Osa: [Rok]
+5.2. Hodnoty: [Pocet obyvatel]
+5.3. Podmíněné formátování za pomoci kalkulované míry "06 cf pocet obyvatel mezirocne": Pokud je pocet obyvatel mezirocne < 0 tak barva "#FF0000", jinak "#00FF00"
+
+6. Karta
+6.1 Kalkulovaná míra "09 rok max populace ve vybrane zemi": Max [Rok], ve kterém bylo v dané zemi (uživatel vybírá průřezem z bodu 4) dosaženo maximální hodnoty ve sloupci [Pocet obyvatel]
+
+================================== CVIČENÍ 2 ================================================
